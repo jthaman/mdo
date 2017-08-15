@@ -9,60 +9,58 @@
  * http://code.google.com/p/google-code-prettify/source/browse/trunk/src/prettify.css
  */
 .pln {
-  color: #bd3613; }
+    color: #000; }
 
 .str {
-  color: #269186; }
+    color: #080; }
 
 .kwd {
-  color: #859900; }
+    color: #008; }
 
 .com {
-  color: #586175;
-  font-style: italic; }
+    color: #800;
+    font-style: italic; }
 
 .typ {
-  color: #b58900; }
+    color: #606; }
 
 .lit {
-  color: #2aa198; }
+    color: #066; }
 
 .pun {
-  color: #839496; }
+    color: #660; }
 
 .opn {
-  color: #839496; }
+    color: #660; }
 
 .clo {
-  color: #839496; }
+    color: #660; }
 
 .tag {
-  color: #268bd2; }
+    color: #008; }
 
 .atn {
-  color: #586175; }
+    color: #606; }
 
 .atv {
-  color: #2aa198; }
+    color: #080; }
 
 .dec {
-  color: #268bd2; }
+    color: #606; }
 
 .var {
-  color: #268bd2; }
+    color: #606; }
 
 .fun {
-  color: #FF0000; }
+    color: red; }
 
 /* Put a border around prettyprinted code snippets. */
 pre.prettyprint {
-  background-color: #042029;
   padding: 10px;
-  border: 1px solid #E1E1E8; }
+  border: 1px solid #888; }
 
 /* Specify class=linenums on a pre to get line numbering */
 ol.linenums {
-  color: #4c666c;
   margin: 0 0 0 40px; }
 
 ol.linenums li {
